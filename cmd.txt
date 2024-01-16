@@ -1,0 +1,56 @@
+cd /home/shen-gh/_results/speccpu_2006/401.bzip2/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 401.bzip2 take_simpoint_checkpoints 401 --bmk_input input.program > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 401.bzip2 take_simpoint_checkpoints 401 --bmk_input dryer.jpg > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/429.mcf/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 429.mcf take_simpoint_checkpoints 429 > ./m5out/checkpoint.log 2>&1
+
+
+cd /home/shen-gh/_results/speccpu_2006/445.gobmk/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input capture.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input connect.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input connection.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input connection_rot.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input connect_rot.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input cutstone.tst > ./m5out/checkpoint.log 2>&1
+
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 445.gobmk take_simpoint_checkpoints 445 --bmk_input dniwog.tst > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/456.hmmer/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 456.hmmer take_simpoint_checkpoints 456 > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/458.sjeng/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 458.sjeng take_simpoint_checkpoints 458 > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/462.libquantum/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 462.libquantum take_simpoint_checkpoints 462 > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/464.h264ref/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 464.h264ref take_simpoint_checkpoints 464 > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/471.omnetpp/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 471.omnetpp take_simpoint_checkpoints 471 > ./m5out/checkpoint.log 2>&1
+
+
+
+cd /home/shen-gh/_results/speccpu_2006/473.astar/
+~/Desktop/gem5/build/X86/gem5.opt ~/Desktop/gem5-skylake-config/gem5-configs/system/run-se.py Tuned 473.astar take_simpoint_checkpoints 473 > ./m5out/checkpoint.log 2>&1
+
